@@ -1,0 +1,54 @@
+.sideBar {
+  background-color: #fff;
+  min-height: 100vh;
+}
+.warper {
+  margin: 30px 50px 30px 24px;
+}
+.logo {
+  width: 16.91px;
+  background-color: var(--primary-papule);
+  width: 26.9px;
+  height: 26.8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
+.logoImg {
+  width: 16.91px;
+}
+
+.title {
+  font-weight: 700;
+  line-height: 31.25px;
+}
+.LogoTitle {
+  justify-content: start;
+  align-items: center;
+  column-gap: 12px;
+}
+.navLinks {
+  margin-top: 35px;
+}
+ul {
+  list-style: none;
+}
+.navLinks ul li,
+.settings ul li {
+  color: #5f6165;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18.23px;
+}
+.navItem {
+  column-gap: 9.6px;
+  padding: 7px 8px 7px 8px;
+  border-radius: 6px;
+}
+.navLinks ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.settings ul li:not(:last-child) {
+  margin-bottom: 24px;
+}

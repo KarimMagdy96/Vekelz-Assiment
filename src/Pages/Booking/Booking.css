@@ -1,0 +1,138 @@
+.Booking {
+  padding: 30px;
+}
+.BookingMenu {
+  margin-top: 34px;
+}
+
+.dropdown {
+  width: 122px;
+  height: 36px;
+}
+.dropdown2 {
+  width: 143px;
+  height: 36px;
+}
+.dropdown__face {
+  background-color: #fff;
+  border-radius: 22.5px;
+  display: block;
+  padding: 10px 20px;
+}
+.dropContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 28.4px;
+}
+
+.dropdown__text {
+  font-weight: 500;
+  color: var(--gray-4);
+}
+.drop {
+  column-gap: 16px;
+}
+.dropdown input,
+.dropdown2 input {
+  display: none;
+}
+.BookingBtns {
+  display: flex;
+  column-gap: 16px;
+}
+.BookingBtns div {
+  width: 44px;
+  padding: 10px;
+  border-radius: 50%;
+  height: 44px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 8px rgba(53, 53, 53, 0.1);
+}
+
+.BookingBtns div:nth-child(1) {
+  background-color: #fff;
+}
+.BookingBtns div:nth-child(2) {
+  background-color: var(--primary-papule);
+}
+.cardContainer {
+  margin-top: 30px;
+}
+.layer {
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 24px;
+}
+.layer .CardHeader {
+}
+.headerTitle {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 4.5px;
+}
+.subtitle {
+  font-weight: 400;
+  color: var(--gray-3);
+  margin-bottom: 21px;
+}
+
+.col-md-4 {
+}
+.cardImg {
+  width: 233px;
+  height: 105px;
+  margin: auto;
+  overflow: hidden;
+  object-fit: cover;
+}
+.cardImg img {
+  width: 100%;
+  margin: auto;
+  display: block;
+  object-fit: cover;
+}
+.cardContainer .col-lg-4:nth-child(2) .layer .cardImg img,
+.cardContainer .col-lg-4:nth-child(5) .layer .cardImg img,
+.cardContainer .col-lg-4:nth-child(6) .layer .cardImg img,
+.cardContainer .col-lg-4:nth-child(8) .layer .cardImg img {
+  width: auto;
+}
+.cardPerson {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  column-gap: 5.75px;
+}
+.cardPerson span:nth-child(2),
+.cardCarType span:nth-child(2),
+.cardPrice span:nth-child(2) {
+  color: var(--gray-3);
+}
+.footer {
+  padding-top: 22px;
+}
+.FooterWrapper {
+  column-gap: 18px;
+}
+.cardCarType {
+  display: flex;
+  align-items: flex-start;
+  justify-content: start;
+  column-gap: 6.6px;
+}
+.cardCarType span:nth-child(1) {
+  margin-top: 2px;
+}
+.cardPrice span {
+  font-weight: 500;
+  font-size: 18px;
+}
+.cardContainer {
+  row-gap: 28px;
+
+  padding-top: 34px;
+}
