@@ -60,7 +60,7 @@ export default function Booking() {
                 <div className="CardHeader d-flex justify-content-between">
                   <div className="headerTitle">Porshe 718 Cayman S</div>
                   <div>
-                    <img src="/src/assets/img/Vector.svg" alt="like" />
+                    <img src="/src/assets/img/likesvg.svg" alt="like" />
                   </div>
                 </div>
                 <div className="subtitle">Coupe</div>
@@ -97,7 +97,7 @@ export default function Booking() {
                 <div className="CardHeader d-flex justify-content-between">
                   <div className="headerTitle">Porshe 718 Cayman S</div>
                   <div>
-                    <img src="/src/assets/img/Vector.svg" alt="like" />
+                    <img src="/src/assets/img/likesvg.svg" alt="like" />
                   </div>
                 </div>
                 <div className="subtitle">Coupe</div>
@@ -134,7 +134,7 @@ export default function Booking() {
                 <div className="CardHeader d-flex justify-content-between">
                   <div className="headerTitle">Porshe 718 Cayman S</div>
                   <div>
-                    <img src="/src/assets/img/Vector.svg" alt="like" />
+                    <img src="/src/assets/img/likesvg.svg" alt="like" />
                   </div>
                 </div>
                 <div className="subtitle">Coupe</div>
@@ -168,7 +168,7 @@ export default function Booking() {
                 <div className="CardHeader d-flex justify-content-between">
                   <div className="headerTitle">Porshe 718 Cayman S</div>
                   <div>
-                    <img src="/src/assets/img/Vector.svg" alt="like" />
+                    <img src="/src/assets/img/likesvg.svg" alt="like" />
                   </div>
                 </div>
                 <div className="subtitle">Coupe</div>
@@ -205,7 +205,7 @@ export default function Booking() {
                 <div className="CardHeader d-flex justify-content-between">
                   <div className="headerTitle">Porshe 718 Cayman S</div>
                   <div>
-                    <img src="/src/assets/img/Vector.svg" alt="like" />
+                    <img src="/src/assets/img/likesvg.svg" alt="like" />
                   </div>
                 </div>
                 <div className="subtitle">Coupe</div>
@@ -242,7 +242,7 @@ export default function Booking() {
                 <div className="CardHeader d-flex justify-content-between">
                   <div className="headerTitle">Porshe 718 Cayman S</div>
                   <div>
-                    <img src="/src/assets/img/Vector.svg" alt="like" />
+                    <img src="/src/assets/img/likesvg.svg" alt="like" />
                   </div>
                 </div>
                 <div className="subtitle">Coupe</div>
@@ -279,7 +279,7 @@ export default function Booking() {
                 <div className="CardHeader d-flex justify-content-between">
                   <div className="headerTitle">Porshe 718 Cayman S</div>
                   <div>
-                    <img src="/src/assets/img/Vector.svg" alt="like" />
+                    <img src="/src/assets/img/likesvg.svg" alt="like" />
                   </div>
                 </div>
                 <div className="subtitle">Coupe</div>
@@ -316,7 +316,7 @@ export default function Booking() {
                 <div className="CardHeader d-flex justify-content-between">
                   <div className="headerTitle">Porshe 718 Cayman S</div>
                   <div>
-                    <img src="/src/assets/img/Vector.svg" alt="like" />
+                    <img src="/src/assets/img/likesvg.svg" alt="like" />
                   </div>
                 </div>
                 <div className="subtitle">Coupe</div>
@@ -353,7 +353,7 @@ export default function Booking() {
                 <div className="CardHeader d-flex justify-content-between">
                   <div className="headerTitle">Porshe 718 Cayman S</div>
                   <div>
-                    <img src="/src/assets/img/Vector.svg" alt="like" />
+                    <img src="/src/assets/img/likesvg.svg" alt="like" />
                   </div>
                 </div>
                 <div className="subtitle">Coupe</div>
