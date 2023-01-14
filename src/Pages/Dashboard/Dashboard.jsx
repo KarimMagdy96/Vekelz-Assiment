@@ -289,6 +289,93 @@ export default function Dashboard() {
               </div>
             </div>
           </div>
+          <div className="col-lg-4 col-md-6">
+            <div className="layer">
+              <div className="CardHeader d-flex justify-content-between">
+                <div className="headerTitle">Porshe 718 Cayman S</div>
+              </div>
+
+              <div className="cardImg">
+                <img src="/src/assets/img/car.png" alt="" />
+              </div>
+              <div className="footer d-flex justify-content-between">
+                <div className="FooterWrapper d-flex">
+                  <div className="cardPerson">
+                    <span>
+                      <img src="/src/assets/img/Peson.svg" alt="" />
+                    </span>
+                    <span>4</span>
+                  </div>
+                  <div className="cardCarType">
+                    <span>Manual</span>
+                  </div>
+                </div>
+                <div className="cardPrice">
+                  <span> $400</span>
+                  <span>/d</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6">
+            <div className="layer">
+              <div className="CardHeader d-flex justify-content-between">
+                <div className="headerTitle">Porshe 718 Cayman S</div>
+              </div>
+
+              <div className="cardImg">
+                <img src="/src/assets/img/car2.png" alt="" />
+              </div>
+              <div className="footer d-flex justify-content-between">
+                <div className="FooterWrapper d-flex">
+                  <div className="cardPerson">
+                    <span>
+                      <img src="/src/assets/img/Peson.svg" alt="" />
+                    </span>
+                    <span>4</span>
+                  </div>
+                  <div className="cardCarType">
+                    <span>Manual</span>
+                  </div>
+                </div>
+                <div className="cardPrice">
+                  <span> $400</span>
+                  <span>/d</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6">
+            <div className="layer">
+              <div className="CardHeader d-flex justify-content-between">
+                <div className="headerTitle">Porshe 718 Cayman S</div>
+              </div>
+
+              <div className="cardImg">
+                <img src="/src/assets/img/car3.png" alt="" />
+              </div>
+              <div className="footer d-flex justify-content-between">
+                <div className="FooterWrapper d-flex">
+                  <div className="cardPerson">
+                    <span>
+                      <img src="/src/assets/img/Peson.svg" alt="" />
+                    </span>
+                    <span>4</span>
+                  </div>
+                  <div className="cardCarType">
+                    <span>
+                      <img src="/src/assets/img/itration.svg" alt="" />
+                    </span>
+                    <span>Manual</span>
+                  </div>
+                </div>
+                <div className="cardPrice">
+                  <span> $400</span>
+                  <span>/d</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </Helmet>
