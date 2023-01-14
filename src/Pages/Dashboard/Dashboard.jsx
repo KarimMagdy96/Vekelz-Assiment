@@ -73,74 +73,37 @@ export default function Dashboard() {
   const [baroptions, setbaroptions] = useState({
     chart: {
       type: "bar",
-      height: 380,
+      height: 350,
+    },
+    plotOptions: {
+      bar: {
+        horizontal: false,
+        columnWidth: "55%",
+        endingShape: "rounded",
+      },
+    },
+    dataLabels: {
+      enabled: false,
+    },
+    stroke: {
+      show: true,
+      width: 2,
+      colors: ["transparent"],
     },
     xaxis: {
-      type: "category",
-      labels: {
-        formatter: function (val) {
-          return "Q" + dayjs(val).quarter();
-        },
-      },
-      group: {
-        style: {
-          fontSize: "10px",
-          fontWeight: 700,
-        },
-        groups: [
-          { title: "2019", cols: 4 },
-          { title: "2020", cols: 4 },
-        ],
-      },
+      categories: ["1 Pm", "2 Pm", "3 Pm", "4 Pm", "5 Pm", "6 Pm", "7 Pm"],
     },
-    title: {
-      text: "Grouped Labels on the X-axis",
-    },
-    tooltip: {
-      x: {
-        formatter: function (val) {
-          return "Q" + dayjs(val).quarter() + " " + dayjs(val).format("YYYY");
-        },
-      },
+
+    fill: {
+      opacity: 1,
+      colors: ["#2884ff", "#00ff33", '"#2e00c7"'],
     },
   });
+
   const [barseres, setbarseries] = useState([
     {
-      name: "sales",
-      data: [
-        {
-          x: "2019/01/01",
-          y: 400,
-        },
-        {
-          x: "2019/04/01",
-          y: 430,
-        },
-        {
-          x: "2019/07/01",
-          y: 448,
-        },
-        {
-          x: "2019/10/01",
-          y: 470,
-        },
-        {
-          x: "2020/01/01",
-          y: 540,
-        },
-        {
-          x: "2020/04/01",
-          y: 580,
-        },
-        {
-          x: "2020/07/01",
-          y: 690,
-        },
-        {
-          x: "2020/10/01",
-          y: 690,
-        },
-      ],
+      name: "Free Cash Flow",
+      data: [163, 124, 185, 107, 163, 78, 134],
     },
   ]);
   const [series, useseries] = useState([45]);
@@ -249,18 +212,16 @@ export default function Dashboard() {
           </div>
           <div className="col-lg-6 col-md-6 DasCard">
             <div className="layer">
-              <div className="cardIcon">
-                <div className="Icon">
-                  <img src="/src/assets/img/Vector2.svg" alt="thunder" />
-                </div>
+              <div className="mainCardTitle">
+                <span className="mainCardTitleSpan">Miles</span> Statistics
               </div>
-              <div className="cardTitle">Tire Wear</div>
-              <div className="chart">
+              <div className="">
                 <Chart
                   options={baroptions}
                   series={barseres}
                   type="bar"
-                  height={380}
+                  height={185}
+                  width="100%"
                 />
               </div>
             </div>
